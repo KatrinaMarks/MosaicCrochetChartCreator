@@ -17,5 +17,5 @@ Example: "python ChartApp.py 20 40 15" makes an app 20 blocks wide and 40  block
 ## Rules To Make A Mosaic Crochet Chart
 - Rows alternate color so that every odd row is the same color, and every even row is the same color.
 - Every column of a color must begin on its own color row.
-- All columns of color must have an off number of cells.
+- All columns of color must have an odd number of cells.
 - X's mark double crochets; place X's starting on the the 3rd block of every column and then every other block going up the column.
