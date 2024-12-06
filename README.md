@@ -14,7 +14,7 @@ Example: "python ChartApp.py 20 40 15" makes an app 20 blocks wide and 40  block
 - Left-click any block to turn it blue; left-click it again to turn it back to white.
 - Right-click any block to put an "X" on it; right-click again to take the "X" off.
 
-## Rule To Make A Mosaic Crochet Chart
+## Rules To Make A Mosaic Crochet Chart
 - Rows alternate color so that every odd row is the same color, and every even row is the same color.
 - Every column of a color must begin on its own color row.
 - All columns of color must have an off number of cells.
