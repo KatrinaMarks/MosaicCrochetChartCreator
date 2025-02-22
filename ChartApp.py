@@ -17,13 +17,13 @@ class GridApp:
         self.canvas.pack()
 
         # Botones para guardar y cargar diseño
-        self.save_image_button = tk.Button(master, text="Guardar como Imagen", command=self.save_as_image)
+        self.save_image_button = tk.Button(master, text="Save as image", command=self.save_as_image)
         self.save_image_button.pack(side=tk.LEFT, padx=5, pady=10)
 
-        self.save_json_button = tk.Button(master, text="Guardar para Editar", command=self.save_as_json)
+        self.save_json_button = tk.Button(master, text="Save for editing", command=self.save_as_json)
         self.save_json_button.pack(side=tk.LEFT, padx=5, pady=10)
 
-        self.load_json_button = tk.Button(master, text="Cargar Diseño", command=self.load_from_json)
+        self.load_json_button = tk.Button(master, text="Load design", command=self.load_from_json)
         self.load_json_button.pack(side=tk.LEFT, padx=5, pady=10)
 
         # Create a 2D list to track the color of each block (True for lightblue, False for white)
