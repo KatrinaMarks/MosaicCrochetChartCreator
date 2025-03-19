@@ -8,7 +8,20 @@ You can download ChartApp.py or copy and paste the code from ChartApp.py into yo
 - Type "python ChartApp.py" or "python YourFileName.py" into your command line and press enter to run the app with its default chart width, heigh, and block size.
 
 - Type "python ChartApp.py width height block_size" to run the app with your specified parameters.
-Example: "python ChartApp.py 20 40 15" makes an app 20 blocks wide and 40  blocks high with a block size of 15.
+  Example: "python ChartApp.py 20 40 15" makes an app 20 blocks wide and 40  blocks high with a block size of 15.
+
+### 📦 Dependencies
+
+This app uses:
+
+- **tkinter** (for the GUI) → Usually pre-installed with Python.
+- **Pillow** (for saving images) → Install it if you want to export your charts as images.
+
+To install Pillow:
+
+```bash
+pip install pillow
+```
 
 ## How To Use The App
 - Left-click any block to turn it blue; left-click it again to turn it back to white.
